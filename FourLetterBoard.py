@@ -5,11 +5,10 @@
 
 class FourLetterBoard:
 
-    #constructor for the class
+
     def __init__(self):
-        #intialzing private date members
+        '''def creates'''
         self._board = [[" " for i in range(4)] for j in range(4)]
-        #this is to keep track of which player uses the cell
         self._ptrack = [[" " for i in range(4)] for j in range(4)]
         self._current_state = "UNFINISHED"
         self.fill = 0
